@@ -150,7 +150,7 @@ If ($MultiPrompt -eq "Y") {
 		# Allows chrome driver to run parallel to you doing other actions on PC.
 		$ChromeDriver = New-Object OpenQA.Selenium.Chrome.ChromeDriver
 
-		$ChromeDriver.Navigate().GoToURL("https://forms.office.com/Pages/ResponsePage.aspx?id=s8T3eOrNtEeTACIhQlerfkx2F7f8TXpKlF6op6eJm-RUMlFSR0xWOTJIM0NORzQ2NzJFWTg0SDg0Si4u")
+		$ChromeDriver.Navigate().GoToURL("LINK HERE")
 		#Google form here. (No longer functional as of 3/15/2022. Needs to be replaced)
 		Start-sleep -seconds 3
 		$UserProperties = Get-ADUser $User.SamAccountName -properties * | select SamAccountName, Displayname, Givenname, Surname, Enabled, EmployeeNumber, EmailAddress, passwordlastset, whenCreated, Department, StreetAddress, Title, Country, Office, employeeType, SID, @{Name="ManagerEmail";Expression={(get-aduser -property emailaddress $_.manager).emailaddress}}
