@@ -1,0 +1,2 @@
+@echo off
+start C:\"Program Files (x86)"\LANDesk\LDClient\sdmcache\ld\packages\IISCryptoCli\iiscryptocli.exe /backup backup.reg /template "C:\Program Files (x86)\LANDesk\LDClient\sdmcache\ld\packages\IISCryptoCli\IISCrypto_20210327_Template.ictpl" /reboot

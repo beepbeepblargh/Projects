@@ -1,0 +1,1 @@
+start C:\Users\cng\Desktop\SurfaceGO\Adobe_NUL_Installer_2020.01.23\Build\setup.exe --silent --ADOBEINSTALLDIR="C:\Program Files (x86)\Adobe" --INSTALLLANGUAGE=en_US

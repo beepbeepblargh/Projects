@@ -1,0 +1,2 @@
+@echo off
+start C:\"Program Files (x86)"\LANDesk\LDClient\sdmcache\ld\packages\Adobe\"Adobe Acrobat DC"\"Acrobat PC"\AdobeDCSharedDeviceInstaller04.2021WIN64\Build\setup.exe --silent --ADOBEINSTALLDIR="C:\Program Files (x86)\Adobe\" --INSTALLLANGUAGE=en_US

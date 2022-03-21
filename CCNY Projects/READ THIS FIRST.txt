@@ -1,0 +1,12 @@
+1) Run Powershell as Admin
+2) Type in the Following:
+set-executionpolicy remotesigned
+3) Hit A
+4) Remove the SurfaceGO Recovery Image/Do not move that over when copying the \SurfaceGO folder to the desktop as the file is 16gb.
+5) Uninstall MS Office 365 
+6) Extract the Adobe NUL folder to the SurfaceGo folder and ensure that the setup.exe is in this direct path C:\Users\Helpdesk\Desktop\SurfaceGO\Adobe_NUL_Installer_2020.01.23\Build\setup.exe
+7) Run the "Master Script for SurfaceGO" file
+8) Confirm all Programs are there and running perfectly. Also confirm that the User account was added and is an administrator.
+
+
+-Chris Ng
