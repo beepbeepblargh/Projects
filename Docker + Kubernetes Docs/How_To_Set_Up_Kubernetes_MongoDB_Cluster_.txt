@@ -1,0 +1,5 @@
+1)Ensure that Kubernetes is installed. For the purposes of this lab, i'll be installing it on my macbook, but can easily be installed on any device that can virtualize.
+2)Create a mongodb username and password using base64 decode encryption. This will be stored in a Secret.yaml file that will be referenced later (could also be stored in the main mongodb yaml config file, but for the purpoes of visbility, we'll keep it separately here). 
+--- < This line indicates a new document has started within yaml. Like a linebreak. Ex. Deployment and Service config files are usually in the same .yaml.
+Once that yaml file is created (follow the template provided), run kubectl create .yaml to create the Secret.
+3) Create the internal service so other internal ports can communciate with the internal mongodb.

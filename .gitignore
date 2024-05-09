@@ -1,0 +1,18 @@
+
+*.json
+AzureAD + Intune/Config Profiles/Device Management Scripts/Script Content/Bitlocker_Key_Intune_Upload.ps1
+AzureAD + Intune/Config Profiles/Device Health Scripts/Script Content/Restart stopped Office C2R svc_detection.ps1
+AzureAD + Intune/Config Profiles/Device Health Scripts/Script Content/Restart stopped Office C2R svc_remediation.ps1
+AzureAD + Intune/Config Profiles/Device Health Scripts/Script Content/Update stale Group Policies_detection.ps1
+AzureAD + Intune/Config Profiles/Device Health Scripts/Script Content/Update stale Group Policies_remediation.ps1
+AzureAD + Intune/Config Profiles/Device Management Scripts/Script Content/Create Local Admin Account.ps1
+AzureAD + Intune/Config Profiles/Device Management Scripts/Script Content/Create-Admin (No Win Laps).ps1
+AzureAD + Intune/Config Profiles/Device Management Scripts/Script Content/Default Local Save Location - Office Apps.ps1
+AzureAD + Intune/Config Profiles/Device Management Scripts/Script Content/Deploy_Updated_Bloatware_Script.ps1
+AzureAD + Intune/Config Profiles/Device Management Scripts/Script Content/Disable Hiberboot (Fastboot).ps1
+AzureAD + Intune/Config Profiles/Device Management Scripts/Script Content/Disable Microsoft Teams Autostart.ps1
+AzureAD + Intune/Config Profiles/Device Management Scripts/Script Content/Disable-WinAdmin.ps1
+AzureAD + Intune/Config Profiles/Device Management Scripts/Script Content/Get Teamviewer uninstall key.ps1
+AzureAD + Intune/Config Profiles/Device Management Scripts/Script Content/Remove Bloatware.ps1
+AzureAD + Intune/Config Profiles/Device Management Scripts/Script Content/Windows Hello (Optional).ps1
+*.log

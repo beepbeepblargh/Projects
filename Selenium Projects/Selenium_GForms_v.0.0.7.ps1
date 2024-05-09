@@ -58,8 +58,8 @@ If ($IsWindows -or $Env:OS) {
 ElseIf ($IsMacOS) {
     Invoke-WebRequest "https://chromedriver.storage.googleapis.com/$ChromeDriverVersion/chromedriver_mac64.zip" -OutFile $TempZipFilePath;
     Expand-Archive $TempZipFilePath -DestinationPath $TempFileUnzipPath;
-	Move-Item "$TempFileUnzipPath/chromedriver" -Destination "C:\Selenium\chromedriver" -Force;
-    #Move-Item "$TempFileUnzipPath/chromedriver" -Destination "path/to/save/chromedriver" -Force;
+	#Move-Item "$TempFileUnzipPath/chromedriver" -Destination "C:\Selenium\chromedriver" -Force;
+    Move-Item "$TempFileUnzipPath/chromedriver" -Destination "path/to/save/chromedriver" -Force;
 }
 Else {
     Throw "Your operating system is not supported by this script.";
